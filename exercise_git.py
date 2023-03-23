@@ -12,3 +12,4 @@ for zakupy in lista_zakupów:
     print(f"W sumie kupuję {len(zakupy)} produktów.")
     break   
 print("starts new lines")
+print("I hope its last one ;)")
