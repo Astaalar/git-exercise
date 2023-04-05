@@ -1,15 +1,13 @@
-sklepy={
+shops={
         "Warzywniak": ["ziemniaki", "brokół", "sałata"],
         "Piekarnia": ["chleb", "bułka", "rogal"]
 }
-for key, value in sklepy.items():
+for key, value in shops.items():
     str.upper(key)
     print("Lista zakupów")  
     print(f"Idę do {key.upper()}, i kupuję tam {value}")
 
-    lista_zakupów=["ziemniaki", "brokół", "sałata", "chleb", "bułka", "rogal"]
-for zakupy in lista_zakupów:
-    print(f"W sumie kupuję {len(zakupy)} produktów.")
-    break   
-print("starts new lines")
-print("I hope its last one ;)")
+    shopping_list=["ziemniaki", "brokół", "sałata", "chleb", "bułka", "rogal"]
+for shopping in shopping_list:
+    print(f"W sumie kupuję {len(shopping)} produktów.")
+pass
