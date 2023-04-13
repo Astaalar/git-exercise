@@ -7,7 +7,7 @@ for key, value in shops.items():
     print("Lista zakupów")  
     print(f"Idę do {key.upper()}, i kupuję tam {value}")
 
-    shopping_list=["ziemniaki", "brokół", "sałata", "chleb", "bułka", "rogal"]
+shopping_list=["ziemniaki", "brokół", "sałata", "chleb", "bułka", "rogal"]
 for shopping in shopping_list:
     print(f"W sumie kupuję {len(shopping)} produktów.")
-pass
+    
